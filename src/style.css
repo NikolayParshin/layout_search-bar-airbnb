@@ -11,6 +11,7 @@ body {
 }
 
 .search-bar {
+  width: 100%;
   display: flex;
   align-items: center;
   position: relative;
@@ -22,7 +23,7 @@ body {
 
 .search-bar--big {
   height: 70px;
-  margin: 20px 0;
+  margin-top: 20px;
   box-shadow: 0 1px 8px 0 #3d4e611a;
 }
 
@@ -38,6 +39,7 @@ body {
 
 .search-bar--small {
   height: 42px;
+  margin-top: 20px;
   box-shadow: 0 1px 8px 0 #3d4e611a;
 }
 
